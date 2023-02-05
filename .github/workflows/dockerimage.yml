@@ -13,3 +13,4 @@ jobs:
         docker login --username=${{ secrets.DOCKER_HUB_USER }} --password=${{ secrets.DOCKER_HUB_PWD }}
         docker build -t b3log/symphony:latest .
         docker push b3log/symphony
+
